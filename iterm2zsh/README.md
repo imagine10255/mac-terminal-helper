@@ -1,5 +1,7 @@
 # iTerm2 + zsh
 
+<img src="./assets/sample01.png">
+
 ### STEP1 安裝 Homebrew
 
 
@@ -178,6 +180,30 @@ Auto suggestions (for Oh My Zsh)
 
     $ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
+
+### Atom(IDE) Package Setting
+
+打開 atom
+
+按下 cmd+,
+
+進入以下路徑 packages --> platformio-ide-terminal --> settngs
+
+- Shell Override
+
+
+    /usr/local/bin/zsh
+
+- Font Format
+
+
+    Source Code Pro for Powerline
+
+- Theme
+
+
+    one-dark        
 
 
 
