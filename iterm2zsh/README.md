@@ -205,9 +205,11 @@ Auto suggestions (for Oh My Zsh)
 
     one-dark        
 
+### VSCode(IDE) Terminal Setting
 
-
-
+    {
+       "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    }
 
 ## 參考文件
 1.[為 MAC 的 Terminal 上色 - 透過 iTerm 2 和 Oh My Zsh 高亮你的終端機(PJCHENder
