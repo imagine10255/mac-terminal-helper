@@ -33,7 +33,7 @@ iTerm2 是一個可以用來取代 MAC 原生終端機的工具，擁有許多�
 
 然後打開 iTerm，進入以下路徑 iterm --> preference --> profiles --> colors --> Color Presets --> Fatansy
 
-<img src="../assets/sample02.jpg"/>
+<img src="./assets/sample02.jpg"/>
 
 
 ### STEP3 安裝 ZSH
