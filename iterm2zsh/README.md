@@ -146,7 +146,10 @@ $ open ~/.zshrc
 # 原本
 plugins=(git)
 # 改成
-plugins=(git,zsh-autosuggestions)
+plugins=(
+  git,
+  zsh-autosuggestions
+)
 ```
 有時候你的背景色和提是的文字會太過接近，以致於你看不到 autosuggestions 的文字，這時候需要去設定顯示的文字。一樣先在終端機輸入以下文字，以開啟設定檔：
 
