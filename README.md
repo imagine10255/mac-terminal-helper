@@ -243,6 +243,7 @@ $ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ## 遇到問題
 
 1. 每次開啟出現訊息提示
+```bash
 [oh-my-zsh] Insecure completion-dependent directories detected:
 drwxrwxr-x  7 imagine  admin  224 Sep  1 12:02 /usr/local/share/zsh
 drwxrwxr-x  4 imagine  admin  128 Sep  1 11:40 /usr/local/share/zsh/site-functions
@@ -260,7 +261,7 @@ drwxrwxr-x  4 imagine  admin  128 Sep  1 11:40 /usr/local/share/zsh/site-functio
 [oh-my-zsh] If the above didn't help or you want to skip the verification of
 [oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to
 [oh-my-zsh] "true" before oh-my-zsh is sourced in your zshrc file.
-
+```
 
 執行下面命令打開權限
 ```bash
