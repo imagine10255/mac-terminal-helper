@@ -240,6 +240,35 @@ $ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 <img src="./assets/sample04.jpg"/>
 
 
+## 遇到問題
+
+1. 每次開啟出現訊息提示
+[oh-my-zsh] Insecure completion-dependent directories detected:
+drwxrwxr-x  7 imagine  admin  224 Sep  1 12:02 /usr/local/share/zsh
+drwxrwxr-x  4 imagine  admin  128 Sep  1 11:40 /usr/local/share/zsh/site-functions
+
+[oh-my-zsh] For safety, we will not load completions from these directories until
+[oh-my-zsh] you fix their permissions and ownership and restart zsh.
+[oh-my-zsh] See the above list for directories with group or other writability.
+
+[oh-my-zsh] To fix your permissions you can do so by disabling
+[oh-my-zsh] the write permission of "group" and "others" and making sure that the
+[oh-my-zsh] owner of these directories is either root or your current user.
+[oh-my-zsh] The following command may help:
+[oh-my-zsh]     compaudit | xargs chmod g-w,o-w
+
+[oh-my-zsh] If the above didn't help or you want to skip the verification of
+[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to
+[oh-my-zsh] "true" before oh-my-zsh is sourced in your zshrc file.
+
+
+執行下面命令打開權限
+```bash
+chmod 755 /usr/local/share/zsh
+chmod 755 /usr/local/share/zsh/site-functions
+```
+
+
 ## 參考文件
 1.[為 MAC 的 Terminal 上色 - 透過 iTerm 2 和 Oh My Zsh 高亮你的終端機(PJCHENder
 那些沒告訴你的小細節)](https://pjchender.blogspot.tw/2017/02/mac-terminal-iterm-2-oh-my-zsh.html)
