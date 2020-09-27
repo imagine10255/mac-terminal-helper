@@ -268,7 +268,13 @@ drwxrwxr-x  4 imagine  admin  128 Sep  1 11:40 /usr/local/share/zsh/site-functio
 chmod 755 /usr/local/share/zsh
 chmod 755 /usr/local/share/zsh/site-functions
 ```
+2. 自動更新後造成 開啟需檢查時間, 和 更新之後則會造成 套件與主程序版本不符產生顯示異常問題
 
+```bash
+sudo vim ~/.zshrc
+```
+找到 # DISABLE_AUTO_UPDATE="true"
+把 # 註解刪除後存檔
 
 ## 參考文件
 1.[為 MAC 的 Terminal 上色 - 透過 iTerm 2 和 Oh My Zsh 高亮你的終端機(PJCHENder
