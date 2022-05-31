@@ -23,11 +23,9 @@ $ brew --version
 
 iTerm2 是一個可以用來取代 MAC 原生終端機的工具，擁有許多更方便的功能和特色，只需到官網下載安裝就可以了。
 
-2.1. [主程式下載](./files/iTerm2-3_1_5.zip)
+2.1. [主程式+主題+字型下載](./files/iTerm2.zip)
 
-2.2. [主題下載](./files/Fantasy.itermcolors)
-
-2.3. 套用 iTerm 的配色
+2.2. 套用 iTerm 的配色
 
 下載並點擊後就會自動匯 iTerm 當中。
 
@@ -111,9 +109,7 @@ ZSH_THEME="agnoster"
 
 ### 套用字體 SourceCodePro
 
-在安裝的過程中，如果你發現出現一些看不懂的文字或亂碼時，很可能是因為沒有相對應的字體，因此我們要下載字體。
-
-[下載字體檔-SourceCodePro](./files/SourceCodePro.zip)
+在安裝的過程中，如果你發現出現一些看不懂的文字或亂碼時，很可能是因為沒有相對應的字體，因此我們要下載字體。(在 主程式+主題+字型下載 那包裡面)
 
 在 iTerm2 中套用字體（Meslo）：iTerm -> Preferences -> Profiles -> Text -> Change Font -> Source Code Pro for Powerline
 
@@ -130,8 +126,11 @@ Auto suggestions (for Oh My Zsh)
 
 在終端機輸入：
 
+解壓縮 files/iTerm2/plugins/zsh-autosuggestions.zip
+並且移動到 ZSH_CUSTOM/plugins/zsh-autosuggestions
+
 ```bash
-$ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+$ mv $file $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
 
 打開 ZSH 設定檔：
@@ -204,7 +203,7 @@ $ open ~/.zshrc
 在設定檔的最下面加上這段
 
 ```
-$ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+$ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
 
