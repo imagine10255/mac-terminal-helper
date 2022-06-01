@@ -59,7 +59,7 @@ $ sudo vim /etc/shells
 最下面加入
 
 ```bash
-/usr/local/bin/zsh
+/opt/homebrew/bin/zsh
 ```
 
 將 Shell 預設窗口從 BASH 改成 ZSH，只需在終端機輸入：
@@ -74,7 +74,7 @@ $ chsh -s $(which zsh)
 $ echo $SHELL
 ```
 
-如果成功更改的話，應該會出現 /usr/local/bin/zsh
+如果成功更改的話，應該會出現 /opt/homebrew/bin/zsh
 
 
 
