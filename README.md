@@ -195,6 +195,13 @@ DEFAULT_USER=yourname
 
 ### 程式碼高亮
 
+需在 .zshrc 加上路徑 不然會找不到 homebrew
+
+```bash
+# open ~/.zshrc
+export PATH=/opt/homebrew/bin:$PATH
+```
+
 在終端機輸入下面這段，下載 Syntax Highlighting：
 
 ```
