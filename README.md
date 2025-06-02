@@ -13,6 +13,13 @@ Homebrew 的安裝只需要打開終端機，輸入：
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+建立 ~/.zshrc 或 ~/.bashrc with at the end of file:
+
+```bash
+export PATH=/opt/homebrew/bin:$PATH
+```
+
+
 就可以了。接著可以輸入以下指令確認是否有安裝成功：
 
 ```bash
